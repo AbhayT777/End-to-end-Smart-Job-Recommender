@@ -13,7 +13,7 @@
 
 # tesing the job_matcher.py---------------------------------------------------
 from resume_parser.ocr_parser import extract_text_from_pdf
-from resume_parser.resume_extracter import parse_resume
+from resume_parser.resume_extractor import parse_resume
 from job_recommender.job_matcher import load_jobs, match_jobs_with_suggestions
 
 # Step 1: Extract text from uploaded CV

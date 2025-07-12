@@ -2,29 +2,1044 @@
   {
     "title": "Data Scientist",
     "company": "XYZ Analytics",
-    "skills": ["Python", "Machine Learning", "Pandas", "Scikit-learn", "SQL"],
+    "skills": [
+      "Python",
+      "Machine Learning",
+      "Pandas",
+      "Scikit-learn",
+      "SQL"
+    ],
     "location": "Remote",
     "link": "https://xyzanalytics.com/jobs/data-scientist"
   },
   {
     "title": "Backend Developer",
     "company": "TechHive",
-    "skills": ["Python", "Django", "REST APIs", "PostgreSQL", "Docker"],
+    "skills": [
+      "Python",
+      "Django",
+      "REST APIs",
+      "PostgreSQL",
+      "Docker"
+    ],
     "location": "Bangalore",
     "link": "https://techhive.in/careers/backend"
   },
   {
     "title": "AI/ML Intern",
     "company": "InnovateAI",
-    "skills": ["Python", "Numpy", "Pandas", "TensorFlow", "Machine Learning"],
+    "skills": [
+      "Python",
+      "Numpy",
+      "Pandas",
+      "TensorFlow",
+      "Machine Learning"
+    ],
     "location": "Remote",
     "link": "https://innovateai.com/internship"
   },
   {
     "title": "Data Analyst",
     "company": "InsightsPro",
-    "skills": ["Excel", "SQL", "Power BI", "Python", "Statistics"],
+    "skills": [
+      "Excel",
+      "SQL",
+      "Power BI",
+      "Python",
+      "Statistics"
+    ],
     "location": "Mumbai",
     "link": "https://insightspro.in/jobs/data-analyst"
+  },
+  {
+    "title": "Software Engineer",
+    "company": "CodeCrafters",
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "SQL",
+      "Git",
+      "REST APIs"
+    ],
+    "location": "Hyderabad",
+    "link": "https://codecrafters.io/jobs/software-engineer"
+  },
+  {
+    "title": "Full Stack Developer",
+    "company": "StackUp",
+    "skills": [
+      "JavaScript",
+      "React",
+      "Node.js",
+      "MongoDB",
+      "HTML",
+      "CSS"
+    ],
+    "location": "Remote",
+    "link": "https://stackup.dev/careers/fullstack"
+  },
+  {
+    "title": "Frontend Developer",
+    "company": "PixelSoft",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "UI/UX"
+    ],
+    "location": "Pune",
+    "link": "https://pixelsoft.io/jobs/frontend"
+  },
+  {
+    "title": "Cloud Engineer",
+    "company": "CloudNova",
+    "skills": [
+      "AWS",
+      "Terraform",
+      "Docker",
+      "CI/CD",
+      "Linux"
+    ],
+    "location": "Bangalore",
+    "link": "https://cloudnova.com/careers/cloud-engineer"
+  },
+  {
+    "title": "DevOps Engineer",
+    "company": "BuildFlow",
+    "skills": [
+      "CI/CD",
+      "Jenkins",
+      "Kubernetes",
+      "Docker",
+      "AWS"
+    ],
+    "location": "Noida",
+    "link": "https://buildflow.io/jobs/devops"
+  },
+  {
+    "title": "Machine Learning Engineer",
+    "company": "AI Dynamics",
+    "skills": [
+      "Python",
+      "TensorFlow",
+      "PyTorch",
+      "Scikit-learn",
+      "ML Ops"
+    ],
+    "location": "Remote",
+    "link": "https://aidynamics.ai/careers/ml-engineer"
+  },
+  {
+    "title": "Data Engineer",
+    "company": "DataWave",
+    "skills": [
+      "Python",
+      "SQL",
+      "Airflow",
+      "Spark",
+      "ETL"
+    ],
+    "location": "Chennai",
+    "link": "https://datawave.io/jobs/data-engineer"
+  },
+  {
+    "title": "Business Intelligence Analyst",
+    "company": "InsightIQ",
+    "skills": [
+      "Power BI",
+      "SQL",
+      "Excel",
+      "Data Visualization",
+      "Statistics"
+    ],
+    "location": "Delhi",
+    "link": "https://insightiq.in/careers/bi-analyst"
+  },
+  {
+    "title": "Mobile App Developer",
+    "company": "AppStudio",
+    "skills": [
+      "Flutter",
+      "Dart",
+      "Firebase",
+      "UI/UX",
+      "REST APIs"
+    ],
+    "location": "Ahmedabad",
+    "link": "https://appstudio.com/jobs/mobile-developer"
+  },
+  {
+    "title": "NLP Engineer",
+    "company": "LangMind",
+    "skills": [
+      "NLP",
+      "Transformers",
+      "Python",
+      "Spacy",
+      "HuggingFace"
+    ],
+    "location": "Remote",
+    "link": "https://langmind.ai/careers/nlp-engineer"
+  },
+  {
+    "title": "Computer Vision Engineer",
+    "company": "VisionaryAI",
+    "skills": [
+      "OpenCV",
+      "TensorFlow",
+      "Deep Learning",
+      "Python",
+      "YOLO"
+    ],
+    "location": "Hyderabad",
+    "link": "https://visionaryai.com/jobs/cv-engineer"
+  },
+  {
+    "title": "QA Automation Engineer",
+    "company": "TestLoop",
+    "skills": [
+      "Selenium",
+      "Python",
+      "TestNG",
+      "CI/CD",
+      "Jenkins"
+    ],
+    "location": "Gurgaon",
+    "link": "https://testloop.in/careers/qa-engineer"
+  },
+  {
+    "title": "Cybersecurity Analyst",
+    "company": "SecureNet",
+    "skills": [
+      "Network Security",
+      "SIEM",
+      "Python",
+      "Penetration Testing",
+      "Firewalls"
+    ],
+    "location": "Bangalore",
+    "link": "https://securenet.org/jobs/security-analyst"
+  },
+  {
+    "title": "AI Research Intern",
+    "company": "DeepThink",
+    "skills": [
+      "Deep Learning",
+      "Research",
+      "Python",
+      "Transformers",
+      "NLP"
+    ],
+    "location": "Remote",
+    "link": "https://deepthink.ai/careers/ai-intern"
+  },
+  {
+    "title": "Game Developer",
+    "company": "GameForge",
+    "skills": [
+      "Unity",
+      "C#",
+      "Game Physics",
+      "3D Modeling",
+      "Graphics Programming"
+    ],
+    "location": "Mumbai",
+    "link": "https://gameforge.in/jobs/game-dev"
+  },
+  {
+    "title": "Product Manager (Tech)",
+    "company": "ProdManage",
+    "skills": [
+      "Agile",
+      "Product Lifecycle",
+      "SQL",
+      "Wireframing",
+      "User Stories"
+    ],
+    "location": "Remote",
+    "link": "https://prodmanage.tech/careers/pm"
+  },
+  {
+    "title": "ETL Developer",
+    "company": "DataWorx",
+    "skills": [
+      "ETL",
+      "Informatica",
+      "SQL",
+      "Data Warehousing",
+      "Python"
+    ],
+    "location": "Kolkata",
+    "link": "https://dataworx.com/jobs/etl-developer"
+  },
+  {
+    "title": "Systems Analyst",
+    "company": "SysTech",
+    "skills": [
+      "Systems Design",
+      "SQL",
+      "Requirement Analysis",
+      "Documentation",
+      "Testing"
+    ],
+    "location": "Chennai",
+    "link": "https://systech.in/careers/systems-analyst"
+  },
+  {
+    "title": "Embedded Systems Engineer",
+    "company": "EmbedSys",
+    "skills": [
+      "C",
+      "C++",
+      "Microcontrollers",
+      "RTOS",
+      "Embedded Linux"
+    ],
+    "location": "Pune",
+    "link": "https://embedsys.tech/jobs/embedded-engineer"
+  },
+  {
+    "title": "Blockchain Developer",
+    "company": "Chainverse",
+    "skills": [
+      "Solidity",
+      "Ethereum",
+      "Smart Contracts",
+      "Web3",
+      "Blockchain"
+    ],
+    "location": "Remote",
+    "link": "https://chainverse.io/careers/blockchain"
+  },
+  {
+    "title": "UI/UX Designer",
+    "company": "DesignDock",
+    "skills": [
+      "Figma",
+      "Adobe XD",
+      "UI Design",
+      "User Research",
+      "Prototyping"
+    ],
+    "location": "Delhi",
+    "link": "https://designdock.in/jobs/uiux-designer"
+  },
+  {
+    "title": "Technical Writer",
+    "company": "DocuTech",
+    "skills": [
+      "Documentation",
+      "Technical Writing",
+      "Markdown",
+      "Git",
+      "API Docs"
+    ],
+    "location": "Noida",
+    "link": "https://docutech.io/jobs/tech-writer"
+  },
+  {
+    "title": "IT Support Engineer",
+    "company": "Supportify",
+    "skills": [
+      "Networking",
+      "Troubleshooting",
+      "Windows",
+      "Linux",
+      "Ticketing Systems"
+    ],
+    "location": "Hyderabad",
+    "link": "https://supportify.in/jobs/it-support"
+  },
+  {
+    "title": "Big Data Engineer",
+    "company": "BigDelta",
+    "skills": [
+      "Hadoop",
+      "Spark",
+      "Scala",
+      "Kafka",
+      "Data Lakes"
+    ],
+    "location": "Bangalore",
+    "link": "https://bigdelta.io/careers/bigdata"
+  },
+  {
+    "title": "Software Tester",
+    "company": "QualityFirst",
+    "skills": [
+      "Manual Testing",
+      "Test Cases",
+      "Bug Reporting",
+      "JIRA",
+      "Selenium"
+    ],
+    "location": "Jaipur",
+    "link": "https://qualityfirst.in/jobs/tester"
+  },
+  {
+    "title": "Cloud Architect",
+    "company": "SkyNet Solutions",
+    "skills": [
+      "AWS",
+      "Azure",
+      "GCP",
+      "Enterprise Architecture",
+      "Cloud Migration"
+    ],
+    "location": "Remote",
+    "link": "https://skynetsolutions.com/careers/cloud-architect"
+  },
+  {
+    "title": "Machine Learning Researcher",
+    "company": "Cognition Labs",
+    "skills": [
+      "Deep Learning",
+      "Reinforcement Learning",
+      "PyTorch",
+      "Research",
+      "NLP"
+    ],
+    "location": "Bangalore",
+    "link": "https://cognitionlabs.ai/jobs/ml-researcher"
+  },
+  {
+    "title": "Site Reliability Engineer (SRE)",
+    "company": "Reliable Systems",
+    "skills": [
+      "Kubernetes",
+      "Prometheus",
+      "Grafana",
+      "Python",
+      "SRE Principles"
+    ],
+    "location": "Hyderabad",
+    "link": "https://reliablesystems.io/careers/sre"
+  },
+  {
+    "title": "Android Developer",
+    "company": "AppCraft",
+    "skills": [
+      "Kotlin",
+      "Java",
+      "Android SDK",
+      "REST APIs",
+      "Mobile UI"
+    ],
+    "location": "Pune",
+    "link": "https://appcraft.dev/jobs/android-dev"
+  },
+  {
+    "title": "iOS Developer",
+    "company": "iCreate Apps",
+    "skills": [
+      "Swift",
+      "Objective-C",
+      "iOS SDK",
+      "Xcode",
+      "UI/UX"
+    ],
+    "location": "Mumbai",
+    "link": "https://icreateapps.com/careers/ios-dev"
+  },
+  {
+    "title": "Database Administrator",
+    "company": "DataGuard",
+    "skills": [
+      "SQL Server",
+      "MySQL",
+      "PostgreSQL",
+      "Database Tuning",
+      "Backup & Recovery"
+    ],
+    "location": "Chennai",
+    "link": "https://dataguard.in/jobs/dba"
+  },
+  {
+    "title": "Network Engineer",
+    "company": "NetConnect",
+    "skills": [
+      "Cisco",
+      "Juniper",
+      "Routing & Switching",
+      "Firewalls",
+      "Network Security"
+    ],
+    "location": "Delhi",
+    "link": "https://netconnect.com/careers/network-engineer"
+  },
+  {
+    "title": "UX Researcher",
+    "company": "UserFlow Insights",
+    "skills": [
+      "User Research",
+      "Usability Testing",
+      "Interviews",
+      "Figma",
+      "Data Analysis"
+    ],
+    "location": "Remote",
+    "link": "https://userflowinsights.com/jobs/ux-researcher"
+  },
+  {
+    "title": "Technical Project Manager",
+    "company": "ProjectNexus",
+    "skills": [
+      "Agile",
+      "Scrum",
+      "JIRA",
+      "Project Planning",
+      "Stakeholder Management"
+    ],
+    "location": "Bangalore",
+    "link": "https://projectnexus.io/careers/technical-pm"
+  },
+  {
+    "title": "Security Architect",
+    "company": "Fortress Systems",
+    "skills": [
+      "Security Frameworks",
+      "Cloud Security",
+      "Risk Assessment",
+      "Compliance",
+      "Identity Management"
+    ],
+    "location": "Noida",
+    "link": "https://fortresssystems.com/careers/security-architect"
+  },
+  {
+    "title": "Salesforce Developer",
+    "company": "CRM Solutions",
+    "skills": [
+      "Apex",
+      "Lightning Web Components",
+      "Visualforce",
+      "Salesforce Admin",
+      "Integrations"
+    ],
+    "location": "Hyderabad",
+    "link": "https://crmsolutions.in/jobs/salesforce-dev"
+  },
+  {
+    "title": "SAP Consultant",
+    "company": "ERP Integrators",
+    "skills": [
+      "SAP ECC",
+      "SAP S/4HANA",
+      "ABAP",
+      "Module Expertise (FI/CO/SD/MM)",
+      "Business Process"
+    ],
+    "location": "Mumbai",
+    "link": "https://erpintegrators.com/careers/sap-consultant"
+  },
+  {
+    "title": "AR/VR Developer",
+    "company": "Immersive Tech",
+    "skills": [
+      "Unity",
+      "C#",
+      "Unreal Engine",
+      "3D Modeling",
+      "Interaction Design"
+    ],
+    "location": "Bangalore",
+    "link": "https://immersivetech.io/jobs/arvr-dev"
+  },
+  {
+    "title": "Bioinformatics Scientist",
+    "company": "GeneTech Research",
+    "skills": [
+      "Python",
+      "R",
+      "Genomics",
+      "Data Analysis",
+      "Computational Biology"
+    ],
+    "location": "Pune",
+    "link": "https://genetechresearch.com/careers/bioinformatics"
+  },
+  {
+    "title": "Quantitative Analyst",
+    "company": "FinAlgo",
+    "skills": [
+      "Python",
+      "R",
+      "Financial Modeling",
+      "Statistics",
+      "Machine Learning"
+    ],
+    "location": "Mumbai",
+    "link": "https://finalgo.com/careers/quant"
+  },
+  {
+    "title": "Robotics Engineer",
+    "company": "Automata Systems",
+    "skills": [
+      "ROS",
+      "C++",
+      "Python",
+      "Robotics Control",
+      "Sensor Integration"
+    ],
+    "location": "Chennai",
+    "link": "https://automata.systems/jobs/robotics-engineer"
+  },
+  {
+    "title": "Game Designer",
+    "company": "PlayForge Studio",
+    "skills": [
+      "Game Design",
+      "Level Design",
+      "Storytelling",
+      "Prototyping",
+      "Unity/Unreal"
+    ],
+    "location": "Hyderabad",
+    "link": "https://playforgestudio.com/careers/game-designer"
+  },
+  {
+    "title": "IoT Engineer",
+    "company": "ConnectThings",
+    "skills": [
+      "Embedded Systems",
+      "Python",
+      "AWS IoT",
+      "Sensor Networks",
+      "Connectivity Protocols"
+    ],
+    "location": "Bangalore",
+    "link": "https://connectthings.io/jobs/iot-engineer"
+  },
+  {
+    "title": "DevSecOps Engineer",
+    "company": "SecureBuild",
+    "skills": [
+      "CI/CD",
+      "Security Automation",
+      "Container Security",
+      "Cloud Security",
+      "Penetration Testing"
+    ],
+    "location": "Remote",
+    "link": "https://securebuild.io/careers/devsecops"
+  },
+  {
+    "title": "Data Governance Analyst",
+    "company": "DataTrust",
+    "skills": [
+      "Data Governance",
+      "Data Quality",
+      "Compliance",
+      "SQL",
+      "Data Policies"
+    ],
+    "location": "Delhi",
+    "link": "https://datatrust.in/jobs/data-governance"
+  },
+  {
+    "title": "Cloud Security Engineer",
+    "company": "CloudShield",
+    "skills": [
+      "AWS Security",
+      "Azure Security",
+      "GCP Security",
+      "SIEM",
+      "Vulnerability Management"
+    ],
+    "location": "Mumbai",
+    "link": "https://cloudshield.com/careers/cloud-security"
+  },
+  {
+    "title": "Full Stack Engineer (.NET)",
+    "company": "Enterprise Solutions",
+    "skills": [
+      ".NET Core",
+      "C#",
+      "ASP.NET",
+      "Angular/React",
+      "SQL Server"
+    ],
+    "location": "Chennai",
+    "link": "https://enterprisesolutions.com/jobs/fullstack-dotnet"
+  },
+  {
+    "title": "Backend Developer (Go)",
+    "company": "GoLang Labs",
+    "skills": [
+      "Go",
+      "Microservices",
+      "REST APIs",
+      "PostgreSQL",
+      "Docker"
+    ],
+    "location": "Bangalore",
+    "link": "https://golanglabs.dev/careers/backend-go"
+  },
+  {
+    "title": "Frontend Developer (Vue.js)",
+    "company": "VueCraft",
+    "skills": [
+      "Vue.js",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Webpack"
+    ],
+    "location": "Pune",
+    "link": "https://vuecraft.io/jobs/frontend-vue"
+  },
+  {
+    "title": "AI Ethics Specialist",
+    "company": "Ethical AI Forum",
+    "skills": [
+      "AI Ethics",
+      "Fairness in AI",
+      "Policy Development",
+      "Responsible AI",
+      "Data Privacy"
+    ],
+    "location": "Remote",
+    "link": "https://ethicalaiforum.org/careers/ai-ethics"
+  },
+  {
+    "title": "Blockchain Analyst",
+    "company": "CryptoInsights",
+    "skills": [
+      "Blockchain Technology",
+      "Cryptocurrency",
+      "Market Analysis",
+      "Smart Contracts",
+      "Research"
+    ],
+    "location": "Delhi",
+    "link": "https://cryptoinsights.co/jobs/blockchain-analyst"
+  },
+  {
+    "title": "Cloud Operations Engineer",
+    "company": "CloudOps Pro",
+    "skills": [
+      "AWS",
+      "Azure",
+      "Cloud Monitoring",
+      "Incident Management",
+      "Automation"
+    ],
+    "location": "Hyderabad",
+    "link": "https://cloudopspro.com/careers/cloud-ops"
+  },
+  {
+    "title": "Data Architect",
+    "company": "Enterprise Data Solutions",
+    "skills": [
+      "Data Modeling",
+      "Data Warehousing",
+      "Cloud Data Platforms",
+      "ETL Architecture",
+      "Big Data Technologies"
+    ],
+    "location": "Bangalore",
+    "link": "https://enterprisedatasolutions.com/jobs/data-architect"
+  },
+  {
+    "title": "AR Developer",
+    "company": "Augmented Reality Co.",
+    "skills": [
+      "Unity",
+      "C#",
+      "ARKit",
+      "ARCore",
+      "3D Graphics"
+    ],
+    "location": "Mumbai",
+    "link": "https://augmentedrealityco.com/careers/ar-dev"
+  },
+  {
+    "title": "Computer Vision Researcher",
+    "company": "VisionLabs",
+    "skills": [
+      "Deep Learning",
+      "Computer Vision",
+      "OpenCV",
+      "PyTorch",
+      "Image Processing"
+    ],
+    "location": "Remote",
+    "link": "https://visionlabs.ai/jobs/cv-researcher"
+  },
+  {
+    "title": "Digital Forensics Analyst",
+    "company": "CyberSecure",
+    "skills": [
+      "Digital Forensics",
+      "Incident Response",
+      "Malware Analysis",
+      "Linux",
+      "Network Forensics"
+    ],
+    "location": "Chennai",
+    "link": "https://cybersecure.in/jobs/forensics-analyst"
+  },
+  {
+    "title": "IoT Solutions Architect",
+    "company": "IoT Innovators",
+    "skills": [
+      "IoT Platform",
+      "Solution Design",
+      "Cloud Computing",
+      "Connectivity",
+      "Edge Computing"
+    ],
+    "location": "Bangalore",
+    "link": "https://iotinnovators.com/careers/iot-architect"
+  },
+  {
+    "title": "Technical Account Manager",
+    "company": "ClientSuccess Tech",
+    "skills": [
+      "Client Relationship",
+      "Technical Support",
+      "Product Knowledge",
+      "Troubleshooting",
+      "Communication"
+    ],
+    "location": "Remote",
+    "link": "https://clientsuccesstech.com/jobs/tam"
+  },
+  {
+    "title": "ERP Consultant",
+    "company": "Integrate ERP",
+    "skills": [
+      "ERP Implementation",
+      "Business Analysis",
+      "Process Optimization",
+      "SAP/Oracle/Microsoft Dynamics",
+      "Project Management"
+    ],
+    "location": "Pune",
+    "link": "https://integrateerp.com/careers/erp-consultant"
+  },
+  {
+    "title": "Game Programmer",
+    "company": "PixelPlay Games",
+    "skills": [
+      "C++",
+      "Unity",
+      "Unreal Engine",
+      "Game Logic",
+      "Physics Engine"
+    ],
+    "location": "Hyderabad",
+    "link": "https://pixelplaygames.com/jobs/game-programmer"
+  },
+  {
+    "title": "Network Security Engineer",
+    "company": "ThreatGuard",
+    "skills": [
+      "Firewalls",
+      "IDS/IPS",
+      "VPN",
+      "Network Protocols",
+      "Security Audits"
+    ],
+    "location": "Noida",
+    "link": "https://threatguard.io/careers/network-security"
+  },
+  {
+    "title": "Robotics Process Automation (RPA) Developer",
+    "company": "AutoWork Solutions",
+    "skills": [
+      "UiPath",
+      "Automation Anywhere",
+      "Blue Prism",
+      "Process Automation",
+      "Workflow Design"
+    ],
+    "location": "Bangalore",
+    "link": "https://autoworksolutions.com/jobs/rpa-dev"
+  },
+  {
+    "title": "Sales Engineer (Software)",
+    "company": "SolutionSell",
+    "skills": [
+      "Technical Sales",
+      "Product Demonstrations",
+      "Pre-sales",
+      "CRM",
+      "Communication"
+    ],
+    "location": "Remote",
+    "link": "https://solutionsell.com/careers/sales-engineer"
+  },
+  {
+    "title": "Site Reliability Engineer",
+    "company": "SystemResilience",
+    "skills": [
+      "Linux",
+      "Python",
+      "Ansible",
+      "Terraform",
+      "Monitoring (Prometheus/Grafana)"
+    ],
+    "location": "Delhi",
+    "link": "https://systemresilience.io/jobs/sre"
+  },
+  {
+    "title": "Software Development Engineer in Test (SDET)",
+    "company": "QualityCode",
+    "skills": [
+      "Python/Java",
+      "Selenium",
+      "API Testing",
+      "CI/CD",
+      "Test Automation Frameworks"
+    ],
+    "location": "Hyderabad",
+    "link": "https://qualitycode.in/jobs/sdet"
+  },
+  {
+    "title": "Technical Product Owner",
+    "company": "ProdCraft",
+    "skills": [
+      "Product Management",
+      "Agile",
+      "User Stories",
+      "Roadmap",
+      "Technical Understanding"
+    ],
+    "location": "Mumbai",
+    "link": "https://prodcraft.io/careers/technical-po"
+  },
+  {
+    "title": "Cloud Data Engineer",
+    "company": "AquaData",
+    "skills": [
+      "AWS S3",
+      "Azure Data Lake",
+      "GCP BigQuery",
+      "Spark",
+      "Data Pipelines"
+    ],
+    "location": "Bangalore",
+    "link": "https://aquadata.com/jobs/cloud-data-engineer"
+  },
+  {
+    "title": "Machine Learning Operations (MLOps) Engineer",
+    "company": "MLOps Gurus",
+    "skills": [
+      "MLOps",
+      "Docker",
+      "Kubernetes",
+      "TensorFlow Extended (TFX)",
+      "CI/CD for ML"
+    ],
+    "location": "Remote",
+    "link": "https://mlopsgurus.com/careers/mlops-engineer"
+  },
+  {
+    "title": "Principal Engineer",
+    "company": "LeadTech",
+    "skills": [
+      "System Design",
+      "Architecture",
+      "Mentorship",
+      "Technical Leadership",
+      "Coding Excellence"
+    ],
+    "location": "Bangalore",
+    "link": "https://leadtech.io/careers/principal-engineer"
+  },
+  {
+    "title": "Research Scientist (AI)",
+    "company": "FutureAI Labs",
+    "skills": [
+      "Deep Learning",
+      "NLP",
+      "Computer Vision",
+      "Python",
+      "Scientific Publication"
+    ],
+    "location": "Remote",
+    "link": "https://futureailabs.com/careers/research-scientist"
+  },
+  {
+    "title": "Solutions Architect",
+    "company": "Architech Solutions",
+    "skills": [
+      "Solution Design",
+      "Pre-sales",
+      "Cloud Platforms",
+      "Enterprise Software",
+      "Client Engagement"
+    ],
+    "location": "Hyderabad",
+    "link": "https://architechsolutions.com/careers/solutions-architect"
+  },
+  {
+    "title": "Scrum Master",
+    "company": "AgileFlow",
+    "skills": [
+      "Scrum",
+      "Agile Coaching",
+      "JIRA",
+      "Conflict Resolution",
+      "Team Facilitation"
+    ],
+    "location": "Pune",
+    "link": "https://agileflow.io/careers/scrum-master"
+  },
+  {
+    "title": "Big Data Architect",
+    "company": "BigInsights",
+    "skills": [
+      "Hadoop",
+      "Spark",
+      "Kafka",
+      "Data Lake",
+      "NoSQL Databases"
+    ],
+    "location": "Bangalore",
+    "link": "https://biginsights.com/jobs/big-data-architect"
+  },
+  {
+    "title": "Quantum Computing Engineer",
+    "company": "QuantumLeap Tech",
+    "skills": [
+      "Quantum Mechanics",
+      "Python",
+      "Qiskit",
+      "Quantum Algorithms",
+      "Linear Algebra"
+    ],
+    "location": "Remote",
+    "link": "https://quantumleaptech.com/careers/quantum-engineer"
+  },
+  {
+    "title": "Voice AI Engineer",
+    "company": "VoiceFlow AI",
+    "skills": [
+      "Speech Recognition",
+      "NLP",
+      "Python",
+      "Voice Synthesis",
+      "Machine Learning"
+    ],
+    "location": "Bangalore",
+    "link": "https://voiceflowai.com/careers/voice-ai-engineer"
+  },
+  {
+    "title": "Wearable Tech Developer",
+    "company": "Wearable Innovations",
+    "skills": [
+      "Embedded Systems",
+      "Bluetooth LE",
+      "Sensor Integration",
+      "Mobile Development",
+      "IoT"
+    ],
+    "location": "Hyderabad",
+    "link": "https://wearableinnovations.com/jobs/wearable-dev"
   }
 ]
+
+

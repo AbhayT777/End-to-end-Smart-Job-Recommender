@@ -1,0 +1,233 @@
+API Management
+ASP.NET
+AWS
+Accessibility
+Adobe XD
+Agile
+Airflow
+Algorithms
+Angular
+Ansible
+Ant Design
+Apache
+ArXiv
+Azure
+Azure Container Apps
+Azure Data Factory
+Azure Data Lake Storage
+Azure Event Grid
+Azure Event Hub
+Azure Function Apps
+Azure Key Vault
+Azure Logic Apps
+Azure Managed Identity
+Azure SQL
+Azure Service Bus
+Azure Stream Analytics
+BERT
+Babel
+Backend Development
+Bash
+Beam
+BibTeX
+BigQuery
+Bootstrap
+C#
+C++
+CI/CD
+CSS
+Cassandra
+Chai
+Chakra UI
+Chef
+CircleCI
+Cloudflare
+Computational Complexity
+Computer Networks
+Computer Vision
+Confluence
+Cosmos DB
+Critical Thinking
+Cross Validation
+Cryptography
+Cypress
+Dask
+Data Analysis
+Data Structures
+Data Visualization
+Data Warehousing
+Deep Learning
+Design Systems
+DigitalOcean
+Distributed Systems
+Django
+Docker
+Documentation
+ELK Stack
+Elasticsearch
+Event-driven Architecture
+Express.js
+Fastai
+Feature Engineering
+Figma
+Firebase
+Flask
+Flink
+GCP
+GPT
+Git
+GitHub Actions
+GitLab CI
+Go
+Google Data Studio
+Google Scholar
+Grafana
+Graph Theory
+GraphQL
+HTML
+Hadoop
+Heroku
+Hive
+HuggingFace
+Hyperparameter Tuning
+IBM Cloud
+Information Retrieval
+Integration Testing
+JIRA
+JUnit
+Java
+JavaScript
+Jenkins
+Jest
+Kafka
+Kanban
+Keras
+Kotlin
+Kubernetes
+LLMs
+Latex
+LightGBM
+Linux
+Looker
+MATLAB
+MLflow
+Machine Learning
+Make
+Material UI
+Matplotlib
+Mendeley
+Message Queues
+Microservices
+Mocha
+Model Deployment
+Model Evaluation
+MongoDB
+MySQL
+NER
+NLTK
+Natural Language Processing
+Netlify
+Next.js
+Nginx
+Node.js
+Notion
+NumPy
+OKRs
+ONNX
+OpenCV
+Operating Systems
+Oracle DB
+PHP
+PRDs
+Pandas
+Peer Review
+Pig
+PostgreSQL
+Power BI
+Powershell
+Problem Solving
+Product Management
+Prometheus
+Prompt Engineering
+Prototyping
+Puppet
+PyTest
+PyTorch
+Python
+QlikView
+R
+REST APIs
+RabbitMQ
+React
+Redis
+Redshift
+Reinforcement Learning
+Responsive Design
+Ruby
+Rust
+SOPs
+SQL
+SQLite
+Scala
+Scikit-learn
+Scrum
+Seaborn
+Selenium
+Sentence Embeddings
+Sentry
+Service Mesh
+Snowflake
+Spark
+Spring Boot
+Statsmodels
+Storybook
+Supabase
+Survey Writing
+Svelte
+Swift
+System Design
+Tableau
+Tailwind CSS
+Team Collaboration
+Technical Writing
+TensorFlow
+Terraform
+TestNG
+Tokenization
+Transformer Models
+Trello
+TypeScript
+UI/UX
+Unit Testing
+Vercel
+Vite
+Vue.js
+Webpack
+Wireframing
+XGBoost
+Zotero
+Zsh
+gRPC
+spaCy
+Neural Architecture Search
+Federated Learning
+Edge AI
+Multimodal Learning
+Causal Inference
+Few-shot Learning
+Retrieval-Augmented Generation (RAG)
+TinyML
+Model Distillation
+Self-supervised Learning
+Bun.js
+Rome (JavaScript Toolchain)
+Nx (Monorepo Management)
+Volta (JS Runtime Manager)
+Turborepo
+ESBuild
+Ruff (Python Linter)
+Helmfile
+Devbox
+Lazygit
+data Warehousing
+data mining
