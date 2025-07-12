@@ -1,0 +1,35 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore virtual environment
+venv/
+ENV/
+env/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor configs
+.vscode/
+.idea/
+
+# Ignore Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Ignore test data and outputs
+*.jpg
+*.png
+*.jpeg
+*.pdf
+*.docx
+*.npy
+*.csv
+
+# Ignore logs and output
+*.log
+
+# Streamlit temporary folders
+.streamlit/config.toml
