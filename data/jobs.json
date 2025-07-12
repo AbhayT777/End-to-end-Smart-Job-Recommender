@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Data Scientist",
+    "company": "XYZ Analytics",
+    "skills": ["Python", "Machine Learning", "Pandas", "Scikit-learn", "SQL"],
+    "location": "Remote",
+    "link": "https://xyzanalytics.com/jobs/data-scientist"
+  },
+  {
+    "title": "Backend Developer",
+    "company": "TechHive",
+    "skills": ["Python", "Django", "REST APIs", "PostgreSQL", "Docker"],
+    "location": "Bangalore",
+    "link": "https://techhive.in/careers/backend"
+  },
+  {
+    "title": "AI/ML Intern",
+    "company": "InnovateAI",
+    "skills": ["Python", "Numpy", "Pandas", "TensorFlow", "Machine Learning"],
+    "location": "Remote",
+    "link": "https://innovateai.com/internship"
+  },
+  {
+    "title": "Data Analyst",
+    "company": "InsightsPro",
+    "skills": ["Excel", "SQL", "Power BI", "Python", "Statistics"],
+    "location": "Mumbai",
+    "link": "https://insightspro.in/jobs/data-analyst"
+  }
+]
