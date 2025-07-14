@@ -33,3 +33,5 @@ Thumbs.db
 
 # Streamlit temporary folders
 .streamlit/config.toml
+
+*.env
