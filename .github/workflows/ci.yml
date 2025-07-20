@@ -26,7 +26,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run basic checks
+      - name: Run tests and checks
         run: |
-          echo " All checks passed"
-          # Add commands like: pytest, flake8, black, etc.
+          echo "Running code quality checks..."
+          flake8 .
+          black --check .
+          pytest
+
