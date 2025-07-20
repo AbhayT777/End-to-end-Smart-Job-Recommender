@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: JobSetu
+    env: docker
+    repo: https://github.com/AbhayT777/End-to-end-Smart-Job-Recommender
+    region: oregon
+    plan: free
+    autoDeploy: true
+    branch: master
