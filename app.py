@@ -125,3 +125,19 @@ if st.button("✅ Submit Feedback"):
         st.success("🙏 Thanks for your feedback!")
     else:
         st.error("⚠️ Please fill in your name, email, and feedback.")
+
+
+# -------------------
+# 📌 App Info Footer
+# -------------------
+st.markdown("---")
+st.markdown("### 🙋‍♂️ About This App")
+st.markdown("""
+**Smart Job Recommender** is an AI-based platform that extracts skills from your uploaded resume and recommends real-time job openings using Adzuna Jobs API.
+
+👨‍💻 **Developed & Owned by:** [Abhay Kumar Tiwari](https://www.linkedin.com/in/abhay-kumar-tiwari-0191a6121/)  
+📧 Email: tabhay373@gmail.com  
+🔗 GitHub: [github.com/AbhayT777](https://github.com/AbhayT777)
+
+Feel free to share, contribute, or reach out if you're hiring! 🚀
+""")
