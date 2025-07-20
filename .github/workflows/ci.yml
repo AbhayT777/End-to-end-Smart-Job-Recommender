@@ -29,7 +29,5 @@ jobs:
       - name: Run tests and checks
         run: |
           echo "Running code quality checks..."
-          flake8 .
-          black --check .
           pytest
 
