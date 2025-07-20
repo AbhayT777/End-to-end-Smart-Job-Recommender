@@ -11,14 +11,18 @@ load_dotenv()
 st.set_page_config(page_title="Smart Job Recommender", layout="wide")
 st.title("🤖 Smart Job Recommender from CV")
 
-st.markdown("""
+st.markdown(
+    """
 Upload your **CV (PDF or Image)** and get:
 - ✅ AI-based **skill extraction** from your CV
 - 🌐 Real-time job openings based on your skills (via Adzuna)
 - 💬 Leave feedback to help us improve
-""")
+"""
+)
 
-uploaded_file = st.file_uploader("📄 Upload your Resume (PDF, JPG, PNG)", type=["pdf", "jpg", "jpeg", "png"])
+uploaded_file = st.file_uploader(
+    "📄 Upload your Resume (PDF, JPG, PNG)", type=["pdf", "jpg", "jpeg", "png"]
+)
 
 # ----------------------------
 # Resume Upload and Processing
@@ -54,11 +58,21 @@ if st.session_state.get("resume_processed"):
     st.markdown("### 🧩 Extracted Skills")
     st.write(", ".join(st.session_state.extracted_skills))
 
-    country = st.selectbox("🌍 Select Country", ["gb", "us", "in", "ca", "au"], index=2, key="country_select")
+    country = st.selectbox(
+        "🌍 Select Country",
+        ["gb", "us", "in", "ca", "au"],
+        index=2,
+        key="country_select",
+    )
 
-    if "live_jobs" not in st.session_state or st.session_state.get("last_country") != country:
+    if (
+        "live_jobs" not in st.session_state
+        or st.session_state.get("last_country") != country
+    ):
         with st.spinner("🌐 Fetching real-time jobs..."):
-            st.session_state.live_jobs = get_adzuna_jobs(st.session_state.extracted_skills, location=country)
+            st.session_state.live_jobs = get_adzuna_jobs(
+                st.session_state.extracted_skills, location=country
+            )
             st.session_state.job_page = 1
             st.session_state.last_country = country
 
@@ -87,7 +101,12 @@ if st.session_state.get("resume_processed"):
 
         with col2:
             page_numbers = [str(i) for i in range(1, total_pages + 1)]
-            selected_page = st.selectbox("📄 Go to Page", page_numbers, index=st.session_state.job_page - 1, key="job_pagination")
+            selected_page = st.selectbox(
+                "📄 Go to Page",
+                page_numbers,
+                index=st.session_state.job_page - 1,
+                key="job_pagination",
+            )
             st.session_state.job_page = int(selected_page)
 
         start_idx = (st.session_state.job_page - 1) * jobs_per_page
@@ -96,7 +115,9 @@ if st.session_state.get("resume_processed"):
 
         for job in current_jobs:
             with st.container():
-                st.markdown(f"**🔹 {job['title']}** at `{job['company']}` — *{job['location']}*")
+                st.markdown(
+                    f"**🔹 {job['title']}** at `{job['company']}` — *{job['location']}*"
+                )
                 st.markdown(f"🔗 [Apply here]({job['link']})")
                 st.markdown("---")
     else:
@@ -132,7 +153,8 @@ if st.button("✅ Submit Feedback"):
 # -------------------
 st.markdown("---")
 st.markdown("### 🙋‍♂️ About This App")
-st.markdown("""
+st.markdown(
+    """
 **Smart Job Recommender** is an AI-based platform that extracts skills from your uploaded resume and recommends real-time job openings using Adzuna Jobs API.
 
 👨‍💻 **Developed & Owned by:** [Abhay Kumar Tiwari](https://www.linkedin.com/in/abhay-kumar-tiwari-0191a6121/)  
@@ -140,6 +162,7 @@ st.markdown("""
 🔗 GitHub: [github.com/AbhayT777](https://github.com/AbhayT777)
 
 Feel free to share, contribute, or reach out if you're hiring! 🚀
-""")
+"""
+)
 
-#ci check 
+# ci check

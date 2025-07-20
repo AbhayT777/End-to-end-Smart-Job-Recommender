@@ -8,9 +8,6 @@
 # print(parsed_data)
 
 
-
-
-
 # tesing the job_matcher.py---------------------------------------------------
 from resume_parser.ocr_parser import extract_text_from_pdf
 from resume_parser.resume_extractor import parse_resume
@@ -41,6 +38,3 @@ for job in recommendations:
     print(f" Matched Skills: {', '.join(job['matched_skills'])}")
     print(f" Suggested Skills to Learn: {', '.join(job['suggested_skills'])}")
     print(f" Apply: {job['link']}\n")
-
-
-
