@@ -10,7 +10,7 @@ def extract_text_from_image(image_path):
 
 def extract_text_from_pdf(pdf_path):
     # Convert only the first few pages if needed (optional), or increase DPI for better quality
-    images = convert_from_path(pdf_path, dpi=200)  # Lower DPI = faster but still accurate
+    images = convert_from_path(pdf_path, dpi=150, first_page= 1, last_page= 1)  # Lower DPI = faster but still accurate
     full_text = []
 
     for image in images:
