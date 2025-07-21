@@ -2,13 +2,11 @@ import re
 import spacy
 from fuzzywuzzy import fuzz
 
-# Load SpaCy model once
-nlp = spacy.load("en_core_web_sm")
-
+nlp = spacy.load("en_core_web_sm", disable=["ner"])  # Disable unused components for speed
 
 def load_skill_library(filepath="data/skills_library.txt"):
-    with open(filepath, "r") as f:
-        return [line.strip() for line in f.readlines() if line.strip()]
+    with open(filepath, "r", encoding="utf-8") as f:
+        return [line.strip() for line in f if line.strip()]
 
 
 def extract_contact_info(text):
@@ -21,26 +19,19 @@ def extract_skills(text, skill_library):
     doc = nlp(text.lower())
     found_skills = set()
 
-    # Extract tokens and noun chunks from the CV
-    cv_words = set(
-        [token.text.strip() for token in doc if token.is_alpha and not token.is_stop]
-    )
-    cv_phrases = set([chunk.text.strip().lower() for chunk in doc.noun_chunks])
+    # Use set comprehension for faster lookup
+    cv_words = {token.text.strip() for token in doc if token.is_alpha and not token.is_stop}
+    cv_phrases = {chunk.text.strip().lower() for chunk in doc.noun_chunks}
 
     for skill in skill_library:
         skill_lower = skill.lower()
 
-        # Match with phrases (e.g. "machine learning")
-        for phrase in cv_phrases:
-            if fuzz.token_sort_ratio(skill_lower, phrase) >= 90:
-                found_skills.add(skill)
-                break
+        if any(fuzz.token_sort_ratio(skill_lower, phrase) >= 90 for phrase in cv_phrases):
+            found_skills.add(skill)
+            continue
 
-        # Match with individual words (e.g. "Python")
-        for word in cv_words:
-            if fuzz.ratio(skill_lower, word) >= 90:
-                found_skills.add(skill)
-                break
+        if any(fuzz.ratio(skill_lower, word) >= 90 for word in cv_words):
+            found_skills.add(skill)
 
     return list(found_skills)
 
